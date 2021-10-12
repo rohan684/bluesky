@@ -1,0 +1,26 @@
+ /* images container  */
+ .image_container
+ {
+     overflow:hidden;
+     height:400px;
+ }
+ /* content container  */
+ .content_container
+ {
+     overflow:hidden;
+     height:400px;
+     padding: 10px;
+ }
+ /*Only for images*/
+ .Image_dimension
+ {
+     height: 400px;
+     width: 100%;
+     opacity: 0.5;
+     transition: 2s all ease-in-out;
+ }
+ .Image_dimension:hover
+ {
+     transform: scale(1.5);
+     opacity: 1;
+ }
